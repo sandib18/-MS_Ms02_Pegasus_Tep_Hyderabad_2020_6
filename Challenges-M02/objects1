@@ -1,0 +1,11 @@
+Release 1
+
+var truck = {
+    model: 'Tesla',
+    color: 'Black',
+    cost: 'Medium',
+    modelandcost: function() {
+        return this.model + " and " + this.color;
+    }
+};
+console.log(truck.modelandcost());
